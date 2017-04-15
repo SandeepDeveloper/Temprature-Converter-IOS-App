@@ -26,4 +26,13 @@
 }
 
 
+- (IBAction)tempratureButton:(UIButton *)sender
+{
+    // read the value entered in textbox by the user/.
+    float temprature = [self.tempratureTextbox.text floatValue];
+    // enter the formula to convert farenheit into celcius/
+    float celciustemprature = (temprature - 32) * 5/9;
+    // showing the result into the label after conversion/
+    self.tempratureLabel.text = [NSString stringWithFormat:@"%f",celciustemprature];
+}
 @end

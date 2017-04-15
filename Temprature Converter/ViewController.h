@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *tempratureLabel;
+@property (strong, nonatomic) IBOutlet UITextField *tempratureTextbox;
+- (IBAction)tempratureButton:(UIButton *)sender;
 
 
 @end

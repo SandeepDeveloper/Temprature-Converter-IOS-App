@@ -16,6 +16,7 @@
 		92A580211E99103000BC9FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A5801F1E99103000BC9FAD /* LaunchScreen.storyboard */; };
 		92A5802C1E99103000BC9FAD /* Temprature_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5802B1E99103000BC9FAD /* Temprature_ConverterTests.m */; };
 		92A580371E99103000BC9FAD /* Temprature_ConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A580361E99103000BC9FAD /* Temprature_ConverterUITests.m */; };
+		92A580451E99165600BC9FAD /* Color-Temperature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A580441E99165600BC9FAD /* Color-Temperature.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		92A580321E99103000BC9FAD /* Temprature ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Temprature ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A580361E99103000BC9FAD /* Temprature_ConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temprature_ConverterUITests.m; sourceTree = "<group>"; };
 		92A580381E99103000BC9FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A580441E99165600BC9FAD /* Color-Temperature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Color-Temperature.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		92A5800E1E99103000BC9FAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92A580441E99165600BC9FAD /* Color-Temperature.jpg */,
 				92A5800F1E99103000BC9FAD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -251,6 +254,7 @@
 			files = (
 				92A580211E99103000BC9FAD /* LaunchScreen.storyboard in Resources */,
 				92A5801E1E99103000BC9FAD /* Assets.xcassets in Resources */,
+				92A580451E99165600BC9FAD /* Color-Temperature.jpg in Resources */,
 				92A580191E99103000BC9FAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
